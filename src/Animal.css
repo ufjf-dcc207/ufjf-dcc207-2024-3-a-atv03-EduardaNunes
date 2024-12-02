@@ -4,3 +4,15 @@
     padding: 0.5em;
     border-radius: 0.5em;
 }
+
+.animal :nth-child(1){
+    font-size: 8em;
+}
+
+.animal :nth-child(2){
+    font-weight: 400;
+}
+
+.animal :nth-child(3){
+    opacity: 0.6;
+}
