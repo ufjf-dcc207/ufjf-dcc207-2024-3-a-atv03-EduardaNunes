@@ -11,10 +11,10 @@ interface AnimalProps{
 export default function({icone, nome, peso, extincao, cor}:AnimalProps){
     return (
         <div className="animal" style={{background: cor}}>
-            <div>{icone}</div>
-            <div>{`${nome}`}</div>
-            <div>{`Peso: ${peso}kg`}</div>
-            <div>{`Extinto: ${extincao === true ? "sim" : "não"} `}</div>
+            <div className="icone">{icone}</div>
+            <div className="nome" >{nome}</div>
+            <div className="peso" >{peso}kg</div>
+            {extincao && <div className="extincao">Em Extinção!</div>}
        </div>
     )
 }

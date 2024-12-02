@@ -9,6 +9,7 @@ function App() {
       <Animal icone="🦁" nome="Leão" peso={50} extincao={false} cor="Yellow"/>
       <Animal icone="🦄" nome="Unicórnio" peso={70} extincao={true} cor="Purple"/>
       <Animal icone="🐭" nome="Rato" peso={2} extincao={false} cor="Grey"/>
+      <Animal icone="🐢" nome="Tartaruga" peso={2} extincao={false} cor="Green"/>
     </div>
   )
 }
