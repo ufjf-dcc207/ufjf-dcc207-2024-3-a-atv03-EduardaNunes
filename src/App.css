@@ -3,8 +3,4 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  display: grid;
-  justify-items: stretch;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2em;
 }
